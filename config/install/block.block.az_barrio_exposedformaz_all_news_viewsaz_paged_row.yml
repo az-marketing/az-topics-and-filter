@@ -1,0 +1,28 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.az_all_news_views
+  module:
+    - block_class
+    - system
+    - views
+  theme:
+    - az_barrio
+id: az_barrio_exposedformaz_all_news_viewsaz_paged_row
+theme: az_barrio
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_exposed_filter_block:az_all_news_views-az_paged_row'
+settings:
+  id: 'views_exposed_filter_block:az_all_news_views-az_paged_row'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/news\r\n/news/*\r\n/news-tags/*\r\n/news-story-categories/*"

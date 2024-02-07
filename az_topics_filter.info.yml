@@ -1,0 +1,5 @@
+name: 'AZ Topics and Filter'
+type: module
+description: 'Adds display mode for topics pages view for all news and the universal filter block'
+core_version_requirement: ^10
+package: 'The University of Arizona'
