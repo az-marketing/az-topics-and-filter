@@ -831,7 +831,7 @@ display:
           limit: true
           error_message: true
       filter_groups:
-        operator: OR
+        operator: AND
         groups:
           1: AND
           2: OR
