@@ -1,0 +1,8 @@
+{
+    "name": "az-marketing/az-topics-and-filter",
+    "description": "Category pages and universal filter",
+    "type": "drupal-module",
+    "require": {
+        "php": ">=7.2"
+    }
+}  
